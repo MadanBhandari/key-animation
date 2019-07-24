@@ -52,11 +52,21 @@ canvas {
   width: 10em;
   z-index: 0;
   opacity: 0;
-  background: #2b2d2f;
-  color: #33e233;
+  text-transform: uppercase;
+  color: #fff;
   font-size: 3em;
   transform: translateY(-50%) translateX(-50%);
   text-align: center;
+
+  img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+  h3 {
+    margin-top: 0;
+  }
 }
 
 .progress-bar {
@@ -78,4 +88,3 @@ svg {
   left: 50%;
   right: 0;
 }
-

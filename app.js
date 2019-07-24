@@ -54,7 +54,7 @@ basicTimeline
   // show msg
     .add({
       targets: ".content",
-      opacity: 0.5,
+      opacity: 1,
       zIndex: 1,
       duration: 200,
       delay: 300,
